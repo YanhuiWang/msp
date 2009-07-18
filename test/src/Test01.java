@@ -10,10 +10,10 @@ public class Test01 {
 	private static final int BES_PORT = 80;	
 
 	/**
-	 * @param args
+	 * @param args  wyh
 	 */
 	public static void main(String[] args) throws Exception {		
-		//URL url = new URL("http", BES_HOST, BES_PORT, "/info/Test1?DESTINATION=wyh&PORT=80&REQUESTURI=/");
+		//URL url = new URL("http", BES_HOST, BES_PORT, "/info/Test1?DESTINATION=wyh&PORT=80&REQUESTURI=/"); wyh
 //		URL url = new URL("http://www.hbca.org.cn/bak/HBCA/sqb.doc");
 		URL url = new URL("http://192.168.1.13/info/RedirectServlet");		
 		System.out.println("Sending to" + url.toString());

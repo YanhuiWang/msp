@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class Test05 {
 
 	/**
-	 * @param args
+	 * @param args wyh
 	 */
 	public static void main(String[] args) {
 		HashMap map = new HashMap();
